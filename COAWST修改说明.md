@@ -33,6 +33,7 @@ $$
 \partial_tu + u \cdot \Delta u + 2\Omega \times u_{SD} + \Delta(\pi +u \cdot u_{SD}) = u_{SD} \times (\Delta \times u) + \nu \Delta^2u
 $$
 
+
 - Coriolis-Stokes力： $2\Omega \times u_{SD}$
 
 - Craik–Leibovich 涡旋力：$u_{SD} \times (\Delta \times u)$, 这一项在近岸非常的重要，对于全球海洋的Langmuir湍流也非常重要。
