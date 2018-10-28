@@ -71,14 +71,16 @@ cpp文件中，以下选项必须选一个
 
 - SWAN_STOKES
 
+> $v_{s0}=(ak)^2$  a:波高，k：波数
+
 - SWAN_TRANSPORT
+
 - BREIVIK_PHILLIPS
 - SHALLOW_STK
 - SPECTRUM_STK
 
 
-```c {.line-numbers}
-
+```c
 #define SWAN_STOKES      !based on the surface wave bulk parameters
 
 #define SWAN_TRANSPORT   !based on Breivik et al., 2014 JPO
